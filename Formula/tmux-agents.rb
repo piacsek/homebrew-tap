@@ -3,21 +3,23 @@ class TmuxAgents < Formula
   homepage "https://github.com/piacsek/tmux-agents"
   license "MIT"
 
+  depends_on "tmux"
+
   on_macos do
     on_arm do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.0/tmux-agents-aarch64-apple-darwin.tar.gz"
-      sha256 "63e369a6b4663275332ed645d777c2682cf96c47df57c15c109092436efc975a"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.1/tmux-agents-aarch64-apple-darwin.tar.gz"
+      sha256 "a6852bae89fb925792e9f7102d39629915c51658a5bc7a90e28c626dffd11553"
     end
     on_intel do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.0/tmux-agents-x86_64-apple-darwin.tar.gz"
-      sha256 "839d8b77d25b2e562de4eddfef5bc2a55d56bacf4d35912636304f5d6317ee40"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.1/tmux-agents-x86_64-apple-darwin.tar.gz"
+      sha256 "27d8bb2abfb017507c005609c4a632b83c8d62a8786d4635b6bed1896197872a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.0/tmux-agents-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "85aaf192feec24a8045e07b95cc765579e86554dabf3a31aee7b3f3e7a79ac89"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.1/tmux-agents-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d5bb737ef352405902f2d160c97cc72c3c10b30971c370a28a8baac4f6de1a57"
     end
   end
 
