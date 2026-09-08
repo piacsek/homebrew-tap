@@ -7,19 +7,19 @@ class TmuxAgents < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.2/tmux-agents-aarch64-apple-darwin.tar.gz"
-      sha256 "7458202e24046d3723b5211bfa1940bc2a067c2a846efa49923e6936f926eee5"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.4.0/tmux-agents-aarch64-apple-darwin.tar.gz"
+      sha256 "9b1799fff914cf527ef870dfe93045da816712bf4e0321d677604a6b39171dd8"
     end
     on_intel do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.2/tmux-agents-x86_64-apple-darwin.tar.gz"
-      sha256 "99bc8a9a0c47dbe39d3ac9625c1f6f1cb1d10079a9ab19db9a752aa48b8f8fe8"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.4.0/tmux-agents-x86_64-apple-darwin.tar.gz"
+      sha256 "95221e3d564b7cb64e208832702f235862722ec40853fe10f0e3af51eff011ea"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/piacsek/tmux-agents/releases/download/v0.3.2/tmux-agents-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "15d91df85721164031e3bfd3f73f12e8eee57b11b594f31929edadf1c524c7d8"
+      url "https://github.com/piacsek/tmux-agents/releases/download/v0.4.0/tmux-agents-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eb2e5d3d5350c3edd81c31e86ccf5367b363364fd1b495f3968105cd0a1975e1"
     end
   end
 
