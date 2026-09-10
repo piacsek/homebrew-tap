@@ -8,18 +8,18 @@ class Conveyor < Formula
   on_macos do
     on_arm do
       url "https://github.com/piacsek/conveyor/releases/download/v0.0.1/conveyor-aarch64-apple-darwin.tar.gz"
-      sha256 "56774d3786e152f97725be6b87e582dd735ddcba33d1257cad80394bfe28b2d7"
+      sha256 "44b580dcc0169df94c7f93103adea1124f89e0e7edcfa3be27d29081b7a41960"
     end
     on_intel do
       url "https://github.com/piacsek/conveyor/releases/download/v0.0.1/conveyor-x86_64-apple-darwin.tar.gz"
-      sha256 "7e19ed558b98b9d9f7680760b532ffd32f77f965f566d22e9285764585269bdf"
+      sha256 "7a8b706c3075693e5a456cb0d2359e423319ebe6d8f82e3d9dd7f5c17d2964ae"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/piacsek/conveyor/releases/download/v0.0.1/conveyor-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5d0979afc424f61dc04318ea9785b09f633162bd721a76c1a5675d6bfe725374"
+      sha256 "15c0cb13ac93dc54658352f7a14e05560c27e385059673949feb73ba0cf8d3c9"
     end
   end
 
