@@ -7,19 +7,19 @@ class Conveyor < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/piacsek/conveyor/releases/download/v0.6.0/conveyor-aarch64-apple-darwin.tar.gz"
-      sha256 "f81cebe76155da016800f939e5d558fc6c615b0c8e67df03bdbd996239f4fe9a"
+      url "https://github.com/piacsek/conveyor/releases/download/v0.6.1/conveyor-aarch64-apple-darwin.tar.gz"
+      sha256 "5d0e6946e55a0b2f5b10627ed81a347b846b1475a688c8e90703cf852c49a5ea"
     end
     on_intel do
-      url "https://github.com/piacsek/conveyor/releases/download/v0.6.0/conveyor-x86_64-apple-darwin.tar.gz"
-      sha256 "b386eeff8891e677137639377c627185569f70f5b214a7f85643b0f353776697"
+      url "https://github.com/piacsek/conveyor/releases/download/v0.6.1/conveyor-x86_64-apple-darwin.tar.gz"
+      sha256 "6ba99f945c9f1195123994153db1bda1557e2f69c677f75065ead54d626d00ec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/piacsek/conveyor/releases/download/v0.6.0/conveyor-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d9bb45e21a57a003f22c0efbb554f41851e9db2005ecde6d9b6576fcc405db63"
+      url "https://github.com/piacsek/conveyor/releases/download/v0.6.1/conveyor-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bf26f199938ec234e5694e46a841251e8a290cf446a3b2b9f1805679187c16ae"
     end
   end
 
