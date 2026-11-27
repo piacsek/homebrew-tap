@@ -5,19 +5,19 @@ class Harbour < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/piacsek/harbour/releases/download/v0.45.1/harbour-aarch64-apple-darwin.tar.gz"
-      sha256 "8af9c7174a787430e6438d5070f80ad99a10a03a3a8571c0e3d96b3f82b6a86a"
+      url "https://github.com/piacsek/harbour/releases/download/v0.46.0/harbour-aarch64-apple-darwin.tar.gz"
+      sha256 "7b8e9954d6d807bbaee13dd717c253d6bee4e2ae963c5c0e23038f5e4d5109c4"
     end
     on_intel do
-      url "https://github.com/piacsek/harbour/releases/download/v0.45.1/harbour-x86_64-apple-darwin.tar.gz"
-      sha256 "e5590a182f828c4b746802171f046deed593abfa51c4b7a2f81330d050043a4c"
+      url "https://github.com/piacsek/harbour/releases/download/v0.46.0/harbour-x86_64-apple-darwin.tar.gz"
+      sha256 "55abecc416eba54de0f671e242827b67b05ff6aaf1a2182397b9c3aad76baf92"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/piacsek/harbour/releases/download/v0.45.1/harbour-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "04b7daeed6cd8782fd71265489510c22cf0882b45178c68d9346de4249ed054a"
+      url "https://github.com/piacsek/harbour/releases/download/v0.46.0/harbour-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5508e37d9febde0ba488de010751421f3bbe57339a117118192f898b3a5492d6"
     end
   end
 
